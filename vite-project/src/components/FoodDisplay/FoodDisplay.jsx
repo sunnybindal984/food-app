@@ -14,7 +14,7 @@ const FoodDisplay = ({ category }) => {
       <div className="grid grid-cols-4 gap-8 mt-10">
         {food_list.map((item, i) => {
           {
-            console.log(category, item.category);
+            // console.log(category, item.category);
           }
           if (category === "All" || category === item.category) {
             return (
